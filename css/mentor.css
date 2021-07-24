@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
+h1,
+h2 {
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 10px 0;
+  font-family: 'Philosopher', sans-serif;
+}
+h2:hover {
+  animation: fr 0.7s linear 0.01s 1;
+  animation-fill-mode: forwards;
+}
+
+
+/* partners */
+
+.partners .flex {
+  flex-wrap: wrap;
+  font-family: 'Philosopher', sans-serif;
+    background: #10101E;
+}
+
+
+.partners .card {
+  text-align: center;
+  margin: 18px 10px 40px;
+  transition: transform 0.2s ease-in;
+  font-family: 'Philosopher', sans-serif;
+    background: #00dbdb;
+}
+
+.partners .card h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  
+}
+
+.partners .md-text-center  h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family: 'Philosopher', sans-serif;
+}
+
+.partners .card:hover {
+  transform: translateY(-15px);
+  
+}
+
+
+@keyframes fr {
+  0% {
+    transform: scale(0.9);
+  }
+
+/* Mobile */
+@media (max-width: 500px) {
+  .navbar {
+    height: 110px;
+  }
+
+  .navbar .flex {
+    flex-direction: column;
+  }
+
+  .navbar ul {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .showcase-form {
+    width: 300px;
+  }
+}
+
+
